@@ -23,9 +23,9 @@
 
 # 作者
 
-晓空 (https://blog.moeworld.tech)[https://blog.moeworld.tech]
+晓空 [https://blog.moeworld.tech](https://blog.moeworld.tech)
 
-Magma岩浆块 (https://magma.ink/)[https://magma.ink/]
+Magma岩浆块 [https://magma.ink/](https://magma.ink/)
 
 #  鸣谢
 Magma岩浆块提供的帮助
