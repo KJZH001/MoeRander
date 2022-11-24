@@ -21,6 +21,12 @@
 4. 如果产生争议，则优先按照此处声明为准，对于未在此处声明的部分，则按照MIT协议为准
 5. 我保留最终的解释权利
 
+# 作者
+
+晓空 (https://blog.moeworld.tech)[https://blog.moeworld.tech]
+
+Magma岩浆块 (https://magma.ink/)[https://magma.ink/]
+
 #  鸣谢
 Magma岩浆块提供的帮助
 
