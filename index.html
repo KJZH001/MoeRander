@@ -65,8 +65,55 @@
                 <p><strong>Powered by <a href="https://blog.moeworld.tech/">晓空</a> & <a href="https://magma.ink/">岩浆块Magma</a></strong></p>
             </div>
         </div>
+        
+        <!--JavaScript-->
+        <script>
+            const randList = ["假装这里有一堆名字2333","要抽的东西请写在这里","别看了，该写东西了","你今天摸鱼了嘛~"];
+            const showName = document.getElementById('showName');
+            const buttonStart = document.getElementById('buttonStart');
+            const buttonStop = document.getElementById('buttonStop');
+
+
+            let isRunning = false // 在抽吗
+
+            buttonStart.onclick = () => {
+                if (isRunning) return//如果已经开始了就啥也别干
+                isRunning = true
+                start()
+            }
+
+            buttonStop.onclick = stop
+
+
+            function stop() {
+                isRunning = false
+            }
+
+            function start() {
+                run()
+                setTimeout(() => {
+                    if (isRunning === true) {
+                        start()
+                    }
+                }, 50)
+            }
+
+            function run() {
+                let luckyNumber = Math.floor(Math.random() * randList.length);
+                let luckyName = jd2231[luckyNumber]
+
+                console.log(luckyNumber, luckyName);
+
+                showName.innerText = luckyName
+            }
+
+
+        </script>
+
+
         <!-- MDUI JavaScript -->
         <script src="./js/mdui.min.js"></script>
         <!-- <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> -->
+    
     </body>
 </html>
