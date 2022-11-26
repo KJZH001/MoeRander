@@ -22,21 +22,49 @@
 -->
 
     <body style="
-    width:100vw;
-    height:100vh;
-    opacity: 0.9;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top:0px;
-    background: url(https://img.cdn.18g.me/63818fa5389d9.png);
-    <!--background: url(https://img.cdn.loliloli.net/images/2022/10/20/X6nv.jpg);-->
-    <!--background: url(https://img.cdn.loliloli.net/images/2022/01/25/nYvT.png);-->
-    background-repeat:no-repeat;
-    background-size:cover
-    ">
-        <h1>Hello, world!</h1>
-
+            width:100vw;
+            height:100vh;
+            opacity: 0.9;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top:0px;
+            background: url(https://img.cdn.18g.me/63818fa5389d9.png);
+            <!--background: url(https://img.cdn.loliloli.net/images/2022/10/20/X6nv.jpg);-->
+            <!--background: url(https://img.cdn.loliloli.net/images/2022/01/25/nYvT.png);-->
+            background-repeat:no-repeat;
+            background-size:cover
+        ">
+        <div class="mdui-appbar">
+            <div class="mdui-toolbar mdui-color-theme mdui-text-color-white-text">
+                <a href="javascript:;" class="mdui-typo-headline">MoeRand</a>
+                <a href="javascript:;" class="mdui-typo-title">在？摇个号？</a>
+                <div class="mdui-toolbar-spacer"></div>
+            </div>
+        </div>
+        <div class="mdui-container">
+            <div class="mdui-center">
+                <div class="mdui-typo mdui-text-color-white-text">
+                    <h1>今天的命运之子是...<small class="mdui-text-color-white-text">￣ω￣=</small></h1>
+                    <div class="mdui-typo-display-4" id="showName">还没开始呢！</div>
+                </div>
+                <button class="mdui-btn mdui-color-theme-accent mdui-ripple mdui-btn-raised mdui-color-white" style="
+                    font-size:24px;
+                    width:200px;
+                    height:48px
+                    " id="buttonStart">摇起来!</button>
+                <button class="mdui-btn mdui-color-theme-accent mdui-ripple mdui-btn-raised mdui-color-white" style="
+                    font-size:24px;
+                    width:200px;
+                    height:48px
+                    " id="buttonStop">给我停！</button>
+            </div>
+            <div class="mdui-typo" style="bottom:32px;
+                                          position:absolute;
+                                          text-shadow:1px 1px 2px white;">
+                <p><strong>Powered by <a href="https://blog.moeworld.tech/">晓空</a> & <a href="https://magma.ink/">岩浆块Magma</a></strong></p>
+            </div>
+        </div>
         <!-- MDUI JavaScript -->
         <script src="./js/mdui.min.js"></script>
     </body>
