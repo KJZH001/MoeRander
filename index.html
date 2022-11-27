@@ -30,8 +30,10 @@
             bottom: 0;
             top:0px;
             background: url(https://img.cdn.18g.me/63818fa5389d9.png);
-            <!--background: url(https://img.cdn.loliloli.net/images/2022/10/20/X6nv.jpg);-->
-            <!--background: url(https://img.cdn.loliloli.net/images/2022/01/25/nYvT.png);-->
+            /*
+            background: url(https://img.cdn.loliloli.net/images/2022/10/20/X6nv.jpg);
+            background: url(https://img.cdn.loliloli.net/images/2022/01/25/nYvT.png);
+            */
             background-repeat:no-repeat;
             background-size:cover
         ">
@@ -67,8 +69,8 @@
         </div>
         
         <!--JavaScript-->
+        <script src="./name.js"></script>
         <script>
-            const randList = ["假装这里有一堆名字2333","要抽的东西请写在这里","别看了，该写东西了","你今天摸鱼了嘛~"];
             const showName = document.getElementById('showName');
             const buttonStart = document.getElementById('buttonStart');
             const buttonStop = document.getElementById('buttonStop');
@@ -100,7 +102,7 @@
 
             function run() {
                 let luckyNumber = Math.floor(Math.random() * randList.length);
-                let luckyName = jd2231[luckyNumber]
+                let luckyName = randList[luckyNumber]
 
                 console.log(luckyNumber, luckyName);
 
