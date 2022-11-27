@@ -105,7 +105,10 @@
                 let luckyNumber = Math.floor(Math.random() * randList.length);
                 let luckyName = randList[luckyNumber]
 
-                console.log(luckyNumber, luckyName);
+                if(showLog===true)
+                {
+                    console.log(luckyNumber, luckyName);
+                }
 
                 showName.innerText = luckyName
             }
