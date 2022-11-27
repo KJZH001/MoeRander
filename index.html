@@ -62,7 +62,8 @@
                     height:48px
                     " id="buttonStop">给我停！</button>
                 <br>
-                <select class="mdui-select" id="listSelect">
+                <!--下拉菜单-->
+                <select class="mdui-select" id="listSelect" style="margin-top: 16px; margin-left: 8px;">
 
                 </select>
             </div>
@@ -75,11 +76,6 @@
         
         <!--JavaScript-->
         <script src="./config.js"></script>
-        <script>
-            //动态生成下拉菜单
-            var $ = mdui.$;
-            var inst = new mdui.Select('#demo');
-        </script>
         <script>
             const showName = document.getElementById('showName');
             const buttonStart = document.getElementById('buttonStart');
@@ -129,6 +125,17 @@
         <!-- MDUI JavaScript -->
         <script src="./js/mdui.min.js"></script>
         <!-- <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> -->
+
+        <script>
+            //动态生成下拉菜单
+            var $ = mdui.$;
+            var inst = new mdui.Select('#listSelect');
+            for(var i = 0; i < nameList.length; i++)
+            {
+                $('#listSelect').append('<option>'+nameList[i]+'</option>');
+            }
+            inst.handleUpdate();
+        </script>
     
     </body>
 </html>

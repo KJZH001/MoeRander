@@ -13,7 +13,7 @@ const randList = ["假装这里有一堆名字2333","要抽的东西请写在这
 //名单列表
 //如果你添加了一个新的名单，请修改此处的内容
 //现在还没做好，不用管
-const nameList = ["randList"];
+const nameList = ["randList","名单1","名单2"];
 
 // 是否在控制台输出抽出的名字
 const showLog = true;
