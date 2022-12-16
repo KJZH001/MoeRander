@@ -110,7 +110,7 @@
 
             function run() {
                 let luckyNumber = Math.floor(Math.random() * randList.length);
-                let luckyName = randList[1][luckyNumber]
+                let luckyName = randList[document.getElementById("listSelect").selectedIndex][luckyNumber]
 
                 if(showLog===true)
                 {
@@ -134,7 +134,7 @@
             var inst = new mdui.Select('#listSelect');
             for(var i = 0; i < nameList.length; i++)
             {
-                $('#listSelect').append('<option>'+nameList[i]+'</option>');
+                $('#listSelect').append('<option value="'+i+'">'+nameList[i]+'</option>');
             }
             inst.handleUpdate();
         </script>
