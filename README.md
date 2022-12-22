@@ -24,6 +24,18 @@
 5. 如果产生争议，则优先按照此处声明为准，对于未在此处声明的部分，则按照MIT协议为准
 6. 我保留最终的解释权利
 
+# 如何部署？
+
+## [最简单]下载完整仓库或Release
+1. 在页面靠近右侧上面的地方有个绿色的Code按钮
+2. 点击后展开的菜单中选择 Download ZIP
+3. 下载后找个位置解压
+或者你也可以
+1. 来到[https://github.com/KJZH001/MoeRander/releases](https://github.com/KJZH001/MoeRander/releases)这个页面
+2. 找到最顶上Assets中的Source code(zip)
+3. 下载后找个位置解压
+
+
 # 作者
 
 晓空 [https://blog.moeworld.tech](https://blog.moeworld.tech)
