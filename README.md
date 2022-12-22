@@ -26,7 +26,7 @@
 
 # 如何部署？
 
-## [最简单]下载完整仓库或Release
+## 方法1 [最简单]下载完整仓库或Release
 1. 在页面靠近右侧上面的地方有个绿色的Code按钮
 2. 点击后展开的菜单中选择 Download ZIP
 3. 下载后找个位置解压
@@ -34,6 +34,17 @@
 1. 来到[https://github.com/KJZH001/MoeRander/releases](https://github.com/KJZH001/MoeRander/releases)这个页面
 2. 找到最顶上Assets中的Source code(zip)
 3. 下载后找个位置解压
+
+4. 请阅读下方的配置说明
+
+## 方法2 [推荐]使用git bash进行快速部署
+如果你连命令行或者git bash是什么都不知道的话就直接用上面的那个方法吧
+
+在你希望部署的位置输入以下命令
+```
+git clone https://github.com/KJZH001/MoeRander/
+```
+
 
 
 # 作者
