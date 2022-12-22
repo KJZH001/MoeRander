@@ -65,6 +65,10 @@ git pull origin master
 ```
 然后请自行合并代码冲突
 
+## 怎么启动？（程序的入口在哪里）
+部署目录下的'index.html'，使用你的浏览器打开即可
+你也可以用它来部署在你的服务器上
+
 # 作者
 
 晓空 [https://blog.moeworld.tech](https://blog.moeworld.tech)
