@@ -79,6 +79,8 @@ git pull origin master
 
 里面也内置了三个早期版本的背景图片
 
+或者，你也可以选择直接替换static/background.png这个图片文件
+
 # 作者
 
 晓空 [https://blog.moeworld.tech](https://blog.moeworld.tech)
