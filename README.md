@@ -58,6 +58,13 @@ git clone https://github.com/KJZH001/MoeRander/
 
 请不要直接覆盖文件，因为后续更新可能会对部分内容产生结构性的修改
 
+### 方法2安装的
+```
+cd MoeRander
+git pull origin master
+```
+然后请自行合并代码冲突
+
 # 作者
 
 晓空 [https://blog.moeworld.tech](https://blog.moeworld.tech)
