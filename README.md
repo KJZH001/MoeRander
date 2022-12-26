@@ -106,6 +106,8 @@ git pull origin master
 
 或者，你也可以选择直接替换static/background.png这个图片文件
 
+*默认背景为天气之子*
+
 # 作者
 
 晓空 [https://blog.moeworld.tech](https://blog.moeworld.tech)
