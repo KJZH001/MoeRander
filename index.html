@@ -109,7 +109,7 @@
             }
 
             function run() {
-                let luckyNumber = Math.floor(Math.random() * randList.length);
+                let luckyNumber = Math.floor(Math.random() * randList[document.getElementById("listSelect").selectedIndex].length);
                 let luckyName = randList[document.getElementById("listSelect").selectedIndex][luckyNumber]
 
                 if(showLog===true)
