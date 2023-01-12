@@ -37,6 +37,11 @@
 ## 预览图片
 ![https://img.cdn.loliloli.net/images/2022/12/26/ZAJ4.png](https://img.cdn.loliloli.net/images/2022/12/26/ZAJ4.png)
 
+## 在线DEMO
+v1 [https://api.moeworld.top/MoeRand/v1](https://api.moeworld.top/MoeRand/v1) （已存档）
+
+v2 [https://api.moeworld.top/MoeRand/v2](https://api.moeworld.top/MoeRand/v2) （请访问这个）
+
 ## 特性
 - 支持自定内容
 - 支持离线部署，必要时可脱离host环境独立运行于浏览器上
